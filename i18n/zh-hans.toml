@@ -1,0 +1,26 @@
+[profile]
+other = "个人资料"
+
+[experience]
+other = "经验"
+
+[education]
+other = "教育"
+
+[references]
+other = "参考"
+
+[skills]
+other = "技能"
+
+[languages]
+other = "语言"
+
+[diplomas]
+other = "文凭"
+
+[interests]
+other = "兴趣"
+
+[highlights]
+other = "专业亮点"

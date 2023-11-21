@@ -1,0 +1,131 @@
+BasicInfo:
+  FirstName: Aaron Vincent
+  LastName: Baideme
+  Photo: img/avatar.jpg
+  Location: Hong Kong
+  ContactBlock: >
+    <a href="https://linkedin.com/in/aaronbaideme" class="contact__link" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/aaronbaideme</a>
+    <a href="https://github.com/aaronforce1" class="contact__link" target="_blank"><i class="fab fa-github"></i> github.com/aaronforce1</a>
+  # NOT IN USE YET
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: avbaideme@me.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://aaronforce.tech" target="_blank">aaronforce.tech</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Hong Kong SAR
+
+Profile: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus.
+
+Highlights:
+- "<b>Inceptos Elit</b>: Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet."
+- "<b>Porta Purus</b>: Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+- "<b>Ullamcorper Sit Egestas Parturient</b>: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod."
+
+Experience:
+  - Employer: Lorem Porta Fringilla
+    Place: Hong Kong SAR
+    Date: October 2022 - Present
+    Position:
+      Title: Parturient Ligula Dolor
+      Summary: >
+        Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur.
+      Details:
+        - Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        - Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.
+        - Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+      Accomplishments:
+        - Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.
+        - Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+      Badges: ['AWS', 'GCP', 'EKS', 'GKE', 'CloudHSM', 'Security', 'Kubernetes', 'Terraform', 'ArgoCD', 'Google Workspace']
+  - Employer: Lorem Porta Fringilla
+    Place: Hong Kong SAR
+    Date: October 2022 - Present
+    Position:
+      Title: Parturient Ligula Dolor
+      Summary: >
+        Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur.
+      Details:
+        - Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        - Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.
+        - Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+      Badges: ['AWS', 'GCP', 'EKS', 'GKE', 'CloudHSM', 'Security', 'Kubernetes', 'Terraform', 'ArgoCD', 'Google Workspace']
+
+Education:
+  - Course: Master of Science - Computer Science
+    Place: Hong Kong University of Science and Technology
+    Date: 2011 - 2023
+    Details: Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+  - Course: Bachelor of Arts - English & Linguistics
+    Place: Harvard University
+    Date: 2011 - 2015
+    Details: Praesent commodo cursus magna, vel scelerisque nisl consectet et.
+
+# NOT IN USE YET
+Skills:
+  - Family: Infrastructure Providers
+    Items:
+      - AWS
+      - GCP
+      - Azure
+      - Proxmox (on-prem)
+      - Openstack (on-prem)
+  - Family: Infrastructure Engineering Tools/Platforms
+    Items:
+      - Kubernetes
+      - Terraform
+      - Terragrunt
+      - Docker
+      - Helm
+      - ArgoCD
+      - FluxCD
+      - Github Actions
+      - Gitlab CICD
+      - Jenkins
+      - Ansible
+      - Packer
+      - Vault
+      - Consul
+      - Nomad
+      - Thanos/Prometheus/Loki/Grafana
+      - ELK
+      - Istio
+      - Linkerd
+      - Cilium
+      - Calico
+      - Open Policy Agent
+  - Family: Software Engineering
+    Items:
+      - GoLang
+      - Rust
+      - Python
+      - C#
+      - C++
+      - Node.js / Typescript
+      - React
+      - Vue
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+Languages:
+  - Name: English
+    Level: Native
+  - Name: Spanish
+    Level: C2
+  - Name: French
+    Level: B1
+  - Name: Chinese (Cantonese)
+    Level: B1
+  - Name: Chinese (Mandarin)
+    Level: A2
+  - Name: Japanese
+    Level: A1

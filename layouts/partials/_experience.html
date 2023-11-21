@@ -1,0 +1,68 @@
+{{ if .Experience }}
+<div id="experience" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">{{ i18n "experience" }}</h2>
+    </div>
+    <div class="section__content">
+        <div class="experience">
+            {{ range .Experience }}
+            {{ if .Class }}
+            <div class="experience__item {{ .Class }}">
+            {{ else }}
+            <div class="experience__item">
+            {{ end }}
+                <div class="experience__header">
+                  <div class="experience__block">
+                    <h3 class="experience__position">
+                        {{ .Position.Title | safeHTML}}
+                    </h3>
+                    <h3 class="experience__company">
+                      {{ .Employer | safeHTML }}
+                      <span>{{ .Date | safeHTML }}</span>
+                    </h3>
+                  </div>
+                  <div class="experience__data" style="display: none;">
+                    <h3 class="experience__place">{{ .Place | safeHTML }}</h3>
+                    <h3 class="experience__date">{{ .Date | safeHTML }}</h3>
+                  </div>
+                </div>
+                <hr/>
+                <div class="experience__job">
+                    <div class="experience__subheader">
+                        <h4 class="experience__summary">Summary</h4>
+                        <p>{{ .Position.Summary | safeHTML}}</p>
+                    </div>
+                    {{ if .Position.Details }}
+                    <div class="experience__subheader">
+                      <h4 class="experience__summary">Role Responsibilities</h4>
+                      <ul>
+                        {{ range .Position.Details }}
+                        <li class="experience__bullet">{{ . | safeHTML }}</li>
+                        {{ end }}
+                    </ul>
+                    </div>
+                    {{ end }}
+                    {{ if .Position.Accomplishments }}
+                    <div class="experience__subheader">
+                      <h4 class="experience__summary">Key Accomplishments</h4>
+                      <ul>
+                        {{ range .Position.Accomplishments }}
+                        <li class="experience__bullet">{{ . | safeHTML }}</li>
+                        {{ end }}
+                     </ul>
+                    </div>
+                   {{ end }}
+                    <div class="experience__badges">
+                        <ul>
+                            {{ range .Position.Badges }}
+                            <li class="experience__badge">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

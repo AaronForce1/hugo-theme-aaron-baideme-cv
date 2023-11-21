@@ -1,0 +1,26 @@
+[profile]
+other = "プロフィール"
+
+[experience]
+other = "経験"
+
+[education]
+other = "学歴"
+
+[references]
+other = "参考人"
+
+[skills]
+other = "スキル"
+
+[languages]
+other = "言語"
+
+[diplomas]
+other = "学位"
+
+[interests]
+other = "興味"
+
+[highlights]
+other = "専門的なハイライト"

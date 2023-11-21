@@ -1,0 +1,30 @@
+baseURL = 'https://example.dev/'
+languageCode = "en-hk"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = "aaron-baideme-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+title = "Aaron Baideme - CV"
+#googleAnalytics = ""
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+colorPrimary = "rgba(145,194,222,1)"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "rgba(145,194,222,1)"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "rgba(145,194,222,1)"
+pages = 1
+# Set this param to 'true' to swap the bar positions
+columns = false
+swapColumns = false

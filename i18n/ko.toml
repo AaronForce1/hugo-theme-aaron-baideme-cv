@@ -1,0 +1,26 @@
+[profile]
+other = "프로필"
+
+[experience]
+other = "경력"
+
+[education]
+other = "교육"
+
+[references]
+other = "추천인"
+
+[skills]
+other = "기술"
+
+[languages]
+other = "언어"
+
+[diplomas]
+other = "학위"
+
+[interests]
+other = "관심사"
+
+[highlights]
+other = "전문성 강점"

@@ -1,0 +1,137 @@
+.experience {
+    &__extra_padding {
+        padding-top: 4rem !important;
+    }
+
+    &__item {
+        display: block;
+        position: relative;
+        &:not(:first-child) {
+            // padding-top: 1.5rem;
+        }
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        &::before {
+            content: "";
+            height: 95%;
+            width: 1.5px;
+            position: absolute;
+            background: linear-gradient(rgba(145,194,222, 1), rgba(145,194,222, 0));
+            //background: linear-gradient(blue, red);
+            margin-top: 5px;
+        }
+    }
+
+    &__header,
+    &__subheader {
+        width: 100%;
+        padding-left: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__subheader {
+      li {
+        @include avoid-break;
+      }
+    }
+
+    &__job {
+        position: relative;
+        transition: transform 0.2s cubic-bezier($cubic);
+
+        // &:hover {
+        //     transform: translateX(0.5rem);
+        // }
+    }
+
+    &__summary {
+      margin-bottom: 0.25rem;
+    }
+
+    &__company,
+    &__position {
+        text-align: left;
+        display: block;
+    }
+
+    &__company {
+        color: $color-secondary;
+        display: block;
+
+        span {
+          position: relative;
+          padding-left: 1rem;
+          font-size: 1.2rem;
+          font-weight: 200;
+          padding-bottom: 0.25rem;
+
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 1px;
+            height: 60%;
+            background-color: $color-secondary;
+            margin-top: 0.5rem;
+            margin-left: 0.25rem;
+          }
+        }
+        
+    }
+
+    &__position {
+        font-size: 1.6rem;
+        color: $color-dark;
+    }
+
+    &__date,
+    &__place {
+        float: right;
+        text-align: right;
+        width: 30%;
+        color: $color-secondary;
+    }
+
+    &__date {
+        font-weight: 400;
+    }
+
+    &__place {
+        &::before {
+            font-family: 'Material Icons';
+            color: $color-icon-background;
+            font-size: 1.4rem;
+            content: 'place';
+            display: inline-block;
+            padding-right: 3px;
+            vertical-align: middle;
+            font-weight: 900;
+        }
+    }
+
+    &__bullet {
+        list-style: square inside;
+
+        b {
+          font-weight: 500;
+        }
+    }
+
+    &__badges {
+        display: block;
+        text-align: right;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__badge {
+        font-size: 0.9rem;
+        font-weight: 400;
+        display: inline-block;
+        background-color: $color-icon-background;
+        color: $color-icon-primary;
+        border-radius: 1rem;
+        padding: 0.1rem 0.6rem;
+    }
+}

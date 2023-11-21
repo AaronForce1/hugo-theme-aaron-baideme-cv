@@ -1,0 +1,26 @@
+[profile]
+other = "個人資料"
+
+[experience]
+other = "經驗"
+
+[education]
+other = "教育"
+
+[references]
+other = "參考"
+
+[skills]
+other = "技能"
+
+[languages]
+other = "語言"
+
+[diplomas]
+other = "文憑"
+
+[interests]
+other = "興趣"
+
+[highlights]
+other = "專業亮點"
